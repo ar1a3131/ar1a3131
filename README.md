@@ -10,7 +10,7 @@
 - 💻 **Current Roles**: 
   - Software Engineer & IT Technician at Ferguson Library
   - Software Engineering Intern at Neural Tax Networks
-  - Teaching Assistant for Data Structures & Algorithms and for a Cybersecurity Lab
+  - Teaching Assistant for a Cybersecurity Lab course
 - 🛠️ **Skills**:
   - Languages: Python, C, C++, SQL, React
   - Tools: Git/GitHub, VSCode, Linux, Spring Boot, Maven

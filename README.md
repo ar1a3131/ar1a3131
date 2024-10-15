@@ -16,10 +16,5 @@
   - Tools: Git/GitHub, VSCode, Linux, Spring Boot, Maven
 
 ---
-
-![](https://komarev.com/ghpvc/?username=ar1a3131&color=brightgreen)
-&nbsp; ![Github](https://img.shields.io/github/followers/ar1a3131?label=Follow%20Me%21&style=social)
-
-[website]: https://github.com/ar1a3131
 [linkedin]: https://www.linkedin.com/in/arianna-azizi/
 [email]: mailto:aziziarianna@gmail.com

@@ -8,7 +8,7 @@
 
 - 🎓 **Senior at University of Connecticut** majoring in Computer Science with minors in Economics and Mathematics
 - 💻 **Current Roles**: 
-  - Software Engineer & IT Technician at Ferguson Library
+  - Database Engineer & IT Technician at Ferguson Library
   - Software Engineering Intern at Neural Tax Networks
 
 - 🛠️ **Skills**:

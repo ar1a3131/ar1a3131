@@ -6,14 +6,7 @@
 
 ---
 
-- 🎓 **Senior at University of Connecticut** majoring in Computer Science with minors in Economics and Mathematics
-- 💻 **Current Roles**: 
-  - Database Engineer & IT Technician at Ferguson Library
-  - Software Engineering Intern at Neural Tax Networks
-
-- 🛠️ **Skills**:
-  - Languages: Python, C, C++, SQL, React
-  - Tools: Git/GitHub, VSCode, Linux, Spring Boot, Maven
+- 🎓 **BSc Computer Science, UConn**
 
 ---
 [linkedin]: https://www.linkedin.com/in/arianna-azizi/

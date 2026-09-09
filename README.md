@@ -9,8 +9,6 @@
 
 ### 📊 Most Used Languages
 
-### 📊 Most Used Languages
-
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ar1a3131&layout=compact&theme=default&hide_border=true&langs_count=6" alt="Top Languages" />
 </p>

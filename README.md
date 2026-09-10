@@ -2,4 +2,4 @@
 🔗 [LinkedIn](https://www.linkedin.com/in/arianna-azizi/) | [GitHub](https://github.com/ar1a3131)
 
 ------ 
-🔗 [Personal Website](https://ariannaazizi.com/)
+[Personal Website](https://ariannaazizi.com/)

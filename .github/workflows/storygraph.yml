@@ -1,0 +1,34 @@
+name: Update StoryGraph Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 matplotlib
+
+      - name: Fetch Stats and Generate Chart
+        run: python scripts/update_stats.py
+
+      - name: Commit and Push Chart
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add assets/genre_stats.svg
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update StoryGraph genre stats"
+          git push

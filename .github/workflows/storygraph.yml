@@ -23,12 +23,13 @@ jobs:
           pip install requests beautifulsoup4 matplotlib
 
       - name: Fetch Stats and Generate Chart
-        run: python update_stats.py
+        run: |
+          mkdir -p assets
+          python scripts/update_stats.py
 
       - name: Commit and Push Chart
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add assets/genre_stats.svg
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update StoryGraph genre stats"
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update StoryGraph genre stats chart"
+          file_pattern: "assets/genre_stats.svg"
+          disable_globbing: true

@@ -25,7 +25,7 @@ jobs:
       - name: Fetch Stats and Generate Chart
         run: |
           mkdir -p assets
-          python scripts/update_stats.py
+          python update_stats.py
 
       - name: Commit and Push Chart
         uses: stefanzweifel/git-auto-commit-action@v5

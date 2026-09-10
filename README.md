@@ -3,4 +3,8 @@
 
 ------ 
 
+### 📚 2026 Reading Breakdown by Genre
 
+<p align="center">
+  <img src="./assets/genre_stats.svg" alt="StoryGraph Genre Bar Chart" />
+</p>
